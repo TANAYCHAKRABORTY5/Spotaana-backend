@@ -1,29 +1,35 @@
-Spotaana Backend
+# 🎵 Spotaana Backend
 
-Spotaana is a backend server built with Node.js, Express, and MongoDB, designed to support a Spotify-like music streaming platform. This server handles user authentication, artist and song management, and will eventually scale to include playlists, likes, follows, and more.
+A Node.js + Express backend for **Spotaana** — a Spotify-inspired music streaming platform where users can register, login, add songs, create playlists, follow artists, and much more.
 
-🚀 Features
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-FFBB00?style=for-the-badge&logo=jsonwebtokens&logoColor=black)
 
-🔐 User Authentication (JWT-based with Passport.js)
+---
 
-👤 User Registration & Login
+## 📌 Features
 
-🎵 Song Management (upload, like, delete, etc.)
+| Feature                  | Description                                        |
+|--------------------------|----------------------------------------------------|
+| 🔐 Authentication        | Secure registration & login using JWT & bcrypt     |
+| 👤 User Profiles         | User info with liked songs, playlists, subscriptions |
+| 🎶 Add Songs             | Authenticated users can upload songs               |
+| 📁 Create Playlists      | Users can organize their favorite tracks           |
+| 🌟 Like Songs/Playlists  | Like songs and playlists to save them              |
+| 🧑‍🎤 Follow Artists       | Stay updated with your favorite artists             |
 
-🎤 Artist Features (create artist, associate songs)
+---
 
-💾 MongoDB for database management via Mongoose
+## 🛠 Tech Stack
 
-🔄 Secure API endpoints using Passport JWT middleware
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB with Mongoose
+- **Auth**: JWT + bcrypt
+- **Others**: Passport.js, dotenv, Postman (for testing)
 
-🛠️ Tech Stack
+---
 
-Node.js
+## 📂 Folder Structure
 
-Express.js
-
-MongoDB & Mongoose
-
-Passport.js + JWT for authentication
-
-Bcrypt for password hashing
