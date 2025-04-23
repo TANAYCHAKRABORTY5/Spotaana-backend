@@ -31,5 +31,3 @@ A Node.js + Express backend for **Spotaana** — a Spotify-inspired music stream
 
 ---
 
-## 📂 Folder Structure
-
